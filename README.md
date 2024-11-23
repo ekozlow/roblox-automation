@@ -2,15 +2,15 @@
 
 ## Overview
 
-The attack-nearby-players.lua adds basic AI behavior to an NPC (Non-Player Character) in Roblox. The NPC automatically detects and attacks nearby players or other humanoid NPCs. The script features an attack system where the NPC moves towards the closest target and deals damage if within range, with an attack cooldown to prevent rapid spamming.
+`attack-nearby-players.lua` adds basic AI behavior to an NPC (Non-Player Character) in Roblox. The NPC automatically detects and attacks nearby players or other humanoid NPCs. The script features an attack system where the NPC moves towards the closest target and deals damage if within range, with an attack cooldown to prevent rapid spamming.
 
 This script is useful for games where you want NPCs to behave dynamically and interact with players or other NPCs in a combat setting, such as in RPGs, action games, or games with enemies that need to attack.
 
-spin-npc-character.lua is a useful companion script for debugging. This will help you ensure that your object model is configured properly within Roblox Studio. This script makes an NPC continuously spin around its Y-axis (vertical axis) in place. It first ensures the NPC has a HumanoidRootPart, then applies a rotation to this part using CFrame.Angles at a specified speed. The script repeatedly updates the NPC's rotation, printing the current angle for debugging purposes, and pauses for a short time to control the spin speed. The loop runs indefinitely, causing the NPC to rotate continuously.
+`spin-npc-character.lua` is a useful companion script for debugging. This will help you ensure that your object model is configured properly within Roblox Studio. This script makes an NPC continuously spin around its Y-axis (vertical axis) in place. It first ensures the NPC has a HumanoidRootPart, then applies a rotation to this part using CFrame.Angles at a specified speed. The script repeatedly updates the NPC's rotation, printing the current angle for debugging purposes, and pauses for a short time to control the spin speed. The loop runs indefinitely, causing the NPC to rotate continuously.
 
 ---
 
-## Attack Nearby Players Script Features
+## Features
 
 - **Target Detection**: The NPC identifies the nearest player or humanoid NPC within a set range.
 - **Attack Mechanism**: The NPC attacks its target if it is within a specified distance.
@@ -20,7 +20,7 @@ spin-npc-character.lua is a useful companion script for debugging. This will hel
 
 ---
 
-## Attack Nearby Players Script Breakdown
+## Script Breakdown
 
 ### Variables:
 - **npc**: Refers to the NPC model that the script is attached to.
